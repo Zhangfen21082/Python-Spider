@@ -25,7 +25,7 @@ void sort(Road arr[],int n)//¿ËÂ³Ë¹¿¨¶ûËã·¨Öð²½Ñ¡È¡´ÓÐ¡µ½´óµÄÈ¨ÖµµÄ±ß£¬ËùÒÔÔÚËã·
 	}
 }
 
-int v[maxSize];//¶¨Òå²¢²é¼¯Êý×é
+int v[maxSize];//¶¨Òå²¢²é¼¯Êý×é£¬²¢²é¼¯Êý×é
 int getRoot(int p)
 {
 	while (p != v[p])//Ö»ÓÐ¸ù½Úµã²Å»áÓÃV[0]=0,V[1]=1ÕâÑù£¬Èç¹û²»ÊÇÕâÑù£¬ÄÇÃ´¾Í¼ÌÐøÏòÉÏ×ß£¬Ö±µ½×ßµ½¸ù½Úµã
