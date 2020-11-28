@@ -6,7 +6,7 @@ void partition(int arr[], int n)//此过程大致类似于快速排序
 {
 	int temp;
 	int i = 0;
-	int j = n - 1;//i和j分别指向这个线性表的首元素和尾元素
+	int j = n - 1;//i和j分别指向这个线性表的首元素尾元素
 	temp = arr[0];//第一个元素作为划分依据，也就是枢纽
 
 	while (i < j)//大循环，当i<j时一直比较
