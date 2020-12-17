@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 
-//1:不允许创建临时变量，实现两个数的交换
+//1:不允许创建临时变量，实现两个数的
 /*
 int main(void)
 {
