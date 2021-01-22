@@ -5,7 +5,7 @@ typedef struct BTNode
 {
 	char data;
 	struct BTNode* lchirld;
-	struct BTNode* rchirld;
+	struct BTNode* rchirld
 }BTNode;
 
 
