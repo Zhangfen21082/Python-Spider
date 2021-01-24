@@ -20,7 +20,7 @@ int main(void)
 	for (int i = left, j = right; i < j; ++i, --j)
 	{
 		int temp = L.data[i];
-		L.data[i] = L.data[j];
+		L.data[i] = L.data[j]
 		L.data[j] = temp;
 	}
 }
