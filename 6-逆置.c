@@ -7,7 +7,7 @@ typedef struct
 {
 	int data[maxSize];
 	int length
-}Sqlist;
+}Sqlist
 //Sqlist* L
 //Sqlist& L
 //Sqlist*&L
