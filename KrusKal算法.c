@@ -8,8 +8,7 @@ typedef struct//这里定义的结构体保存的是边的信息
 }Road;//Kruskal算法经常用来求城市最短铺设距离这样的问题，所以这个名字这样写
 
 //Road road[maxSize];//把所有的边全部放入road数组中
-void sort(Road arr[],int n)//克鲁卡算法逐步选取从小到大的权值的边，所以在算法开始前对所有边根据权值排序，这里使用直接插入排序
-{
+void sort(R
 	Road temp;
 	int i, j;
 	for (i = 1; i < n; i++)
